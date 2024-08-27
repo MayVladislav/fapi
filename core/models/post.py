@@ -1,16 +1,14 @@
-from sqlalchemy.orm import mapped_column, Mapped, relationship
-from sqlalchemy import String, Text, ForeignKey
-from typing import TYPE_CHECKING
+from sqlalchemy.orm import mapped_column, Mapped
+from sqlalchemy import String, Text
 from core.models import Base
-
-if TYPE_CHECKING:
-    from .user import User
+from .mixins import UserRelationMixin
 
 
-class Post(Base):
+class Post(UserRelationMixin, Base):
     __tablename__ = "posts"
 
+    _user_id_nullable = False
+    _user_id_unique = False
+    _user_back_populates = "posts"
     title: Mapped[str] = mapped_column(String(100), unique=True)
     body: Mapped[str] = mapped_column(Text, default="", server_default="")
-    user_id: Mapped[int] = mapped_column(ForeignKey("user.id"), nullable=False)
-    user: Mapped["User"] = relationship(back_populates="posts")
