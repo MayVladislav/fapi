@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e78361c1-dab8-4239-88c9-899423230d10" name="Changes" comment="new alembic">
-      <change afterPath="$PROJECT_DIR$/core/models/user.py" afterDir="false" />
+    <list default="true" id="e78361c1-dab8-4239-88c9-899423230d10" name="Changes" comment="new table user">
+      <change afterPath="$PROJECT_DIR$/core/models/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +85,30 @@
       <option name="project" value="LOCAL" />
       <updated>1724747029448</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new table user">
+      <option name="closed" value="true" />
+      <created>1724747577861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724747577861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new table user">
+      <option name="closed" value="true" />
+      <created>1724747592073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724747592073</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new update" />
     <MESSAGE value="new update 1" />
     <MESSAGE value="new alembic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new alembic" />
+    <MESSAGE value="new table user" />
+    <option name="LAST_COMMIT_MESSAGE" value="new table user" />
   </component>
 </project>
